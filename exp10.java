@@ -9,7 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 /**
  *
- * @author ambi
+ * @author kathier_k
  */
 public class exp10 extends JPanel {
     int midX = 400;
