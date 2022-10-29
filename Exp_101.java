@@ -15,16 +15,8 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-/**
- *
- * @author sweth
- */
 public class Exp_101 {
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         JFrame frame = new JFrame();
         JPanel panel = new JPanel();
         frame.setSize(300, 200);
@@ -38,7 +30,7 @@ public class Exp_101 {
                 if (event.getSource() == redButton){
                     color = Color.red;
                     redButton.setBackground(color);
-                    panel.setBackground(color);//To set panel background instead of frames background
+                    panel.setBackground(color);
                 }
                 else if (event.getSource() == greenButton){
                     color = Color.green;
